@@ -1,0 +1,6 @@
+framework module YNPublicService {
+  umbrella header "YNPublicService.h"
+
+  export *
+  module * { export * }
+}
