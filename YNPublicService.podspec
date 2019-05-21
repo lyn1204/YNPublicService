@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  spec.resource  = "Framework/YNPublicServiceBundle.bundle"
+  spec.resource  = "Framework/YNPublicService.bundle"
   # spec.resources = "Resources/*.png"
   spec.ios.vendored_frameworks = "Framework/YNPublicService.framework"
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
