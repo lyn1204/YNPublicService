@@ -136,6 +136,5 @@ Pod::Spec.new do |spec|
   spec.dependency "JSONModel"
   spec.dependency "AFNetworking"
   spec.dependency "Reachability"
-  spec.dependency "JSONKit"
 
 end
