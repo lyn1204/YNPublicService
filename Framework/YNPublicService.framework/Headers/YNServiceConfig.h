@@ -35,6 +35,8 @@ property_nsstring( IPhoneModel )
 property_nsstring( DeviceVersion )
 property_nsstring( OsType )
 property_nsstring( IDFA )
+property_nsstring( mobileModel )
+property_nsstring( osVersion )
 
 +(YNServiceConfig*)sharedInstance;
 
