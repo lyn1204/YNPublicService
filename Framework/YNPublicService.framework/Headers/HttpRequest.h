@@ -79,7 +79,7 @@
  *  appProId     --> 内购产品id
  *  buyType      --> 0 正常购买 1 已经购买、恢复购买
  */
--(void)vipSuccess:(NSMutableDictionary *_Nullable)param complate:(void (^_Nullable)(NSString * _Nullable outTradeNo))complateBlock;
+-(void)vipSuccess:(NSMutableDictionary *_Nullable)param complate:(void (^_Nullable)(BOOL success))complateBlock;
 
 
 /**

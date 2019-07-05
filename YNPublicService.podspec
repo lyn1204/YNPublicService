@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YNPublicService"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "Test For YNPublicService."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/lyn1204/YNPublicService.git", :tag => "1.0.3" }
+  spec.source       = { :git => "https://github.com/lyn1204/YNPublicService.git", :tag => "1.0.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
