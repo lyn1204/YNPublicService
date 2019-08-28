@@ -19,8 +19,9 @@
 
 /**
  * @brief 广告配置
+ * isFirst 是否第一次启动
  */
--(void)ADConfigSuccess:(void (^_Nullable)(ADModel * _Nullable adModel))successBlock failure:(void (^_Nullable)(NSString * _Nullable reason))failureBlock;
+-(void)ADConfigSuccess:(BOOL)isFirst success:(void (^_Nullable)(ADModel * _Nullable adModel))successBlock failure:(void (^_Nullable)(NSString * _Nullable reason))failureBlock;
 
 
 /**
