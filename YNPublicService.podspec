@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YNPublicService"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.8"
   spec.summary      = "Test For YNPublicService."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/lyn1204/YNPublicService.git", :tag => "1.0.6" }
+  spec.source       = { :git => "https://github.com/lyn1204/YNPublicService.git", :tag => "1.0.8" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  spec.resource  = "Framework/YNPublicService.bundle"
+  #spec.resource  = "Framework/YNPublicService.bundle"
   # spec.resources = "Resources/*.png"
   spec.ios.vendored_frameworks = "Framework/YNPublicService.framework"
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -133,8 +133,5 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "JSONModel"
-  spec.dependency "AFNetworking"
-  spec.dependency "Reachability"
 
 end
